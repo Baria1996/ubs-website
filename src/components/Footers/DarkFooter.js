@@ -1,5 +1,6 @@
 /*eslint-disable*/
 import React from "react";
+import ContactUs from "../../views/index-sections/ContactUs";
 
 // reactstrap components
 import { Container } from "reactstrap";
@@ -7,6 +8,7 @@ import { Container } from "reactstrap";
 function DarkFooter() {
   return (
     <footer className="footer" data-background-color="black">
+      <ContactUs />
       <Container>
         <nav>
           <ul>

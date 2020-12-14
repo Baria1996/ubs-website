@@ -9,10 +9,8 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 import WhoWeAre from "./index-sections/WhoWeAre.js";
 import OurSolutions from "./index-sections/OurSolutions.js";
 import SolutionsInfo from "./index-sections/SolutionsInfo.js";
-// import NucleoIcons from "./index-sections/NucleoIcons.js";
 import WhatWeDo from "./index-sections/WhatWeDo.js";
 import OurWork from "./index-sections/OurWork.js";
-import ContactUs from "./index-sections/ContactUs.js";
 
 function Index() {
   React.useEffect(() => {
@@ -33,12 +31,10 @@ function Index() {
         <IndexHeader />
         <div className="main">
           <WhoWeAre />
-          {/* <NucleoIcons /> */}
           <WhatWeDo />
           <OurSolutions />
           <SolutionsInfo />
           <OurWork />
-          <ContactUs />
         </div>
         <DarkFooter />
       </div>
