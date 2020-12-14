@@ -4,6 +4,7 @@ import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import IndexHeader from "components/Headers/IndexHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
+import ClientsSection from "components/ClientsSection.js";
 
 // sections for this page
 import WhoWeAre from "./index-sections/WhoWeAre.js";
@@ -35,6 +36,7 @@ function Index() {
           <OurSolutions />
           <SolutionsInfo />
           <OurWork />
+          <ClientsSection />
         </div>
         <DarkFooter />
       </div>
