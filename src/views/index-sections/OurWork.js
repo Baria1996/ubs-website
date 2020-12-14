@@ -19,38 +19,18 @@ function OurWork() {
                       className="img-fluid img-raised"
                       src={require("assets/img/bg7.jpg")}
                     ></img>
-                    <h4 className="title">Project 1</h4>
-                    <p className="category text-info">info</p>
-                    <p className="description">
-                      You can write here details about one of your team members.
-                      You can give more details about what they do. Feel free to
-                      add some{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        links
-                      </a>{" "}
-                      for people to be able to follow them outside the site.
+                    <h4 className="title">Schoool Projects</h4>
+                    {/* <p className="category text-info">info</p> */}
+                    <p className="description font-weight-normal">
+                      Access to Schools with high-quality classrooms and safe
+                      learning environments is something every parent wants and
+                      every child needs.
                     </p>
                     <Button
                       className="btn-icon btn-round"
                       color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-instagram"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://www.facebook.com/UBSBusinessGroup/"
+                      target="_blank"
                     >
                       <i className="fab fa-facebook-square"></i>
                     </Button>
@@ -63,32 +43,20 @@ function OurWork() {
                       className="img-fluid img-raised"
                       src={require("assets/img/bg5.jpg")}
                     ></img>
-                    <h4 className="title">Project 2</h4>
-                    <p className="category text-info">info</p>
-                    <p className="description">
-                      You can write here details about one of your team members.
-                      You can give more details about what they do. Feel free to
-                      add some{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        links
-                      </a>{" "}
-                      for people to be able to follow them outside the site.
+                    <h4 className="title">Shed Projects</h4>
+                    {/* <p className="category text-info">info</p> */}
+                    <p className="description font-weight-normal">
+                      We invite you to explore our variety of cost efficient and
+                      quality designed structures, built for a lifetime to
+                      endure severe weather conditions.
                     </p>
                     <Button
                       className="btn-icon btn-round"
                       color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://www.facebook.com/UBSBusinessGroup/"
+                      target="_blank"
                     >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-linkedin"></i>
+                      <i className="fab fa-facebook-square"></i>
                     </Button>
                   </div>
                 </Col>
@@ -99,40 +67,20 @@ function OurWork() {
                       className="img-fluid img-raised"
                       src={require("assets/img/bg6.jpg")}
                     ></img>
-                    <h4 className="title">Project 3</h4>
-                    <p className="category text-info">info</p>
-                    <p className="description">
-                      You can write here details about one of your team members.
-                      You can give more details about what they do. Feel free to
-                      add some{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        links
-                      </a>{" "}
-                      for people to be able to follow them outside the site.
+                    <h4 className="title">House Projects</h4>
+                    {/* <p className="category text-info">info</p> */}
+                    <p className="description font-weight-normal">
+                      We are leading Manufacturers of Prefabricated Houses,
+                      Villas, Farm Houses, Rooftop Rooms, Hostels, Cottages,
+                      Porta cabin, Liftable Rooms etc.
                     </p>
                     <Button
                       className="btn-icon btn-round"
                       color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://www.facebook.com/UBSBusinessGroup/"
+                      target="_blank"
                     >
-                      <i className="fab fa-google-plus"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-youtube"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
+                      <i className="fab fa-facebook-square"></i>
                     </Button>
                   </div>
                 </Col>
@@ -141,11 +89,10 @@ function OurWork() {
                 <Col md="12">
                   <div className="space-50"></div>
                   <Button
-                    className="btn-round"
+                    className=""
                     color="info"
                     href="our-work"
                     outline
-                    size="lg"
                     target="_blank"
                   >
                     View More
