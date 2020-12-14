@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 // core components
 
@@ -25,10 +25,18 @@ function Download() {
             <Col md="4"></Col>
             <Col md="4">
               <p className="description text-left">
+                <a
+                  href="https://www.facebook.com/UBSBusinessGroup/"
+                  target="_blank"
+                  rel="nonreferrer"
+                >
+                  <i className="fab fa-facebook-square"></i> Like us on Facebook
+                </a>
+                <br></br>
                 <i className="pr-1 fas fa-phone-square"></i> 0092 51 2363411 -
                 13
                 <br></br>
-                <i class="fas fa-fax"></i> 0092 51 2363409
+                <i className="fas fa-fax"></i> 0092 51 2363409
                 <br></br>
                 <i className="pr-1 fas fa-envelope"></i> ibadsheryar@hotmail.com
                 <br></br>
@@ -38,18 +46,6 @@ function Download() {
                 Office No. 5,6,1 1,12, First Floor, Sardar Arcade, G-11 Markaz,
                 Islamabad
               </p>
-              {/* <Button
-                className="btn-neutral btn-icon btn-round"
-                color="facebook"
-                href="https://www.facebook.com/creativetim?ref=creativetim"
-                id="tooltip7"
-                target="_blank"
-              >
-                <i className="fab fa-facebook-square"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="tooltip7">
-                Like us
-              </UncontrolledTooltip> */}
             </Col>
           </Row>
         </Container>
