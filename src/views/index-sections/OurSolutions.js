@@ -103,7 +103,7 @@ function OurSolutions() {
                   }}
                   role="button"
                 >
-                  <i className="now-ui-icons arrows-1_minimal-left"></i>
+                  <i className="fas fa-chevron-left font-weight-bold shadow-lg"></i>
                 </a>
                 <a
                   className="carousel-control-next"
@@ -115,7 +115,7 @@ function OurSolutions() {
                   }}
                   role="button"
                 >
-                  <i className="now-ui-icons arrows-1_minimal-right"></i>
+                  <i className="fas fa-chevron-right font-weight-bold shadow-lg"></i>
                 </a>
               </Carousel>
             </Col>

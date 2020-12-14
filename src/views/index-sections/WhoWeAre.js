@@ -37,13 +37,7 @@ function WhoWeAre() {
                     <br></br>
                   </p>
                 </div>
-                <div>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                </div>
+                <div className="space-100"></div>
               </Col>
               <Col md="5">
                 <div
@@ -61,7 +55,7 @@ function WhoWeAre() {
                   sector.
                 </p>
                 <a href="who-we-are" color="primary">
-                  Learn more
+                  Find out more
                 </a>
               </Col>
             </Row>

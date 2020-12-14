@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, NavLink } from "reactstrap";
 
 // core components
 
@@ -25,14 +25,14 @@ function Download() {
             <Col md="4"></Col>
             <Col md="4">
               <p className="description text-left">
-                <a
-                  href="https://www.facebook.com/UBSBusinessGroup/"
+                <NavLink
+                  href="https://www.facebook.com/UBSBusinessGroup"
                   target="_blank"
-                  rel="nonreferrer"
+                  id="fb-tooltip"
+                  className="m-0 p-0"
                 >
                   <i className="fab fa-facebook-square"></i> Like us on Facebook
-                </a>
-                <br></br>
+                </NavLink>
                 <i className="pr-1 fas fa-phone-square"></i> 0092 51 2363411 -
                 13
                 <br></br>
