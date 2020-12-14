@@ -33,8 +33,7 @@ function Download() {
                 >
                   <i className="fab fa-facebook-square"></i> Like us on Facebook
                 </NavLink>
-                <i className="pr-1 fas fa-phone-square"></i> 0092 51 2363411 -
-                13
+                <i className="pr-1 fas fa-phone-square"></i> +923004548461
                 <br></br>
                 <i className="fas fa-fax"></i> 0092 51 2363409
                 <br></br>
