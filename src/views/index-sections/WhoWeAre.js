@@ -55,7 +55,7 @@ function WhoWeAre() {
                   sector.
                 </p>
                 <a href="who-we-are" color="primary">
-                  Find out more
+                  Read more
                 </a>
               </Col>
             </Row>

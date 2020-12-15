@@ -19,7 +19,7 @@ function OurWork() {
                     description="Access to Schools with high-quality classrooms and safe
                       learning environments is something every parent wants and
                       every child needs."
-                    link="https://www.facebook.com/UBSBusinessGroup/"
+                    link="our-work"
                     image={require("assets/img/bg6.jpg")}
                   />
                 </Col>
@@ -29,7 +29,7 @@ function OurWork() {
                     description="We invite you to explore our variety of cost efficient and
                       quality designed structures, built for a lifetime to
                       endure severe weather conditions."
-                    link="https://www.facebook.com/UBSBusinessGroup/"
+                    link="our-work"
                     image={require("assets/img/bg7.jpg")}
                   />
                 </Col>
@@ -39,7 +39,7 @@ function OurWork() {
                     description="We are leading Manufacturers of Prefabricated Houses,
                       Villas, Farm Houses, Rooftop Rooms, Hostels, Cottages,
                       Porta cabin, Liftable Rooms etc."
-                    link="https://www.facebook.com/UBSBusinessGroup/"
+                    link="our-work"
                     image={require("assets/img/bg8.jpg")}
                   />
                 </Col>
@@ -47,7 +47,7 @@ function OurWork() {
               <Row>
                 <Col md="12">
                   <div className="space-50"></div>
-                  <Button className="" color="info" href="our-work" outline>
+                  <Button className="" color="info" href="our-work">
                     View all projects
                   </Button>
                 </Col>
