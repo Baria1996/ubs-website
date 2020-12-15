@@ -11,47 +11,24 @@ function TransparentFooter() {
         <nav>
           <ul>
             <li>
-              <a
-                href="https://www.creative-tim.com?ref=nukr-transparent-footer"
-                target="_blank"
-              >
-                Creative Tim
+              <a href="#" target="_blank">
+                link 1
               </a>
             </li>
             <li>
-              <a
-                href="http://presentation.creative-tim.com?ref=nukr-transparent-footer"
-                target="_blank"
-              >
-                About Us
+              <a href="#" target="_blank">
+                link 2
               </a>
             </li>
             <li>
-              <a
-                href="http://blog.creative-tim.com?ref=nukr-transparent-footer"
-                target="_blank"
-              >
-                Blog
+              <a href="#" target="_blank">
+                link 3
               </a>
             </li>
           </ul>
         </nav>
-        <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" "}
-          <a
-            href="https://www.invisionapp.com?ref=nukr-transparent-footer"
-            target="_blank"
-          >
-            Invision
-          </a>
-          . Coded by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=nukr-transparent-footer"
-            target="_blank"
-          >
-            Creative Tim
-          </a>
-          .
+        <div className="copyright text-right" id="copyright">
+          © {new Date().getFullYear()}, UBS Group Of Companies
         </div>
       </Container>
     </footer>

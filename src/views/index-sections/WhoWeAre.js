@@ -39,7 +39,7 @@ function WhoWeAre() {
                 </div>
                 <div className="space-100"></div>
               </Col>
-              <Col md="5">
+              <Col md="6">
                 <div
                   className="image-container image-right"
                   style={{

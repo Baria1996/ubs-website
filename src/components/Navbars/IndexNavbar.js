@@ -99,7 +99,7 @@ function IndexNavbar() {
                 <Button
                   className="nav-link btn-neutral"
                   color="primary"
-                  href="/"
+                  href="contact-us"
                 >
                   <p>Contact Us</p>
                 </Button>

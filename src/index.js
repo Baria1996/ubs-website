@@ -28,6 +28,7 @@ import "assets/demo/nucleo-icons-page-styles.css?v=1.4.0";
 import Index from "views/Index.js";
 import OurWork from "views/OurWork.js";
 import ProjectDetails from "views/ProjectDetails.js";
+import ContactUs from "views/ContactUs.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -38,6 +39,10 @@ ReactDOM.render(
         <Route
           path="/project-details"
           render={(props) => <ProjectDetails {...props} />}
+        />
+        <Route
+          path="/contact-us"
+          render={(props) => <ContactUs {...props} />}
         />
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
