@@ -27,6 +27,7 @@ import "assets/demo/nucleo-icons-page-styles.css?v=1.4.0";
 // pages for this kit
 import Index from "views/Index.js";
 import OurWork from "views/OurWork.js";
+import ProjectDetails from "views/ProjectDetails.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -34,6 +35,10 @@ ReactDOM.render(
       <Switch>
         <Route path="/index" render={(props) => <Index {...props} />} />
         <Route path="/our-work" render={(props) => <OurWork {...props} />} />
+        <Route
+          path="/project-details"
+          render={(props) => <ProjectDetails {...props} />}
+        />
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
       </Switch>

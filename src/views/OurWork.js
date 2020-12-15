@@ -39,31 +39,15 @@ function OurWork() {
               <Row>
                 <Col md="6">
                   <ProjectCard
-                    heading="Schoool Projects"
-                    link="#"
-                    image={require("assets/img/projects-temp/Schoool.png")}
-                  />
-                </Col>
-                <Col md="6">
-                  <ProjectCard
-                    heading="The Kartarpur Corridor"
-                    link="#"
-                    image={require("assets/img/projects-temp/Kartarpur.png")}
-                  />
-                </Col>
-              </Row>
-              <Row>
-                <Col md="6">
-                  <ProjectCard
                     heading="House Projects"
-                    link="#"
+                    link="project-details"
                     image={require("assets/img/projects-temp/House.png")}
                   />
                 </Col>
                 <Col md="6">
                   <ProjectCard
                     heading="Office Projects"
-                    link="#"
+                    link="project-details"
                     image={require("assets/img/projects-temp/Office.png")}
                   />
                 </Col>
@@ -71,15 +55,31 @@ function OurWork() {
               <Row>
                 <Col md="6">
                   <ProjectCard
+                    heading="Schoool Projects"
+                    link="project-details"
+                    image={require("assets/img/projects-temp/Schoool.png")}
+                  />
+                </Col>
+                <Col md="6">
+                  <ProjectCard
+                    heading="The Kartarpur Corridor"
+                    link="project-details"
+                    image={require("assets/img/projects-temp/Kartarpur.png")}
+                  />
+                </Col>
+              </Row>
+              <Row>
+                <Col md="6">
+                  <ProjectCard
                     heading="Sukhi Kinari Hydropower Project"
-                    link="#"
+                    link="project-details"
                     image={require("assets/img/projects-temp/Sukhi.png")}
                   />
                 </Col>
                 <Col md="6">
                   <ProjectCard
                     heading="Andritz Hydropower Gulpur, Kotli AJK"
-                    link="#"
+                    link="project-details"
                     image={require("assets/img/projects-temp/Andritz.png")}
                   />
                 </Col>
@@ -88,14 +88,14 @@ function OurWork() {
                 <Col md="6">
                   <ProjectCard
                     heading="Filtration Plants at Lahore"
-                    link="#"
+                    link="project-details"
                     image={require("assets/img/projects-temp/lahore.png")}
                   />
                 </Col>
                 <Col md="6">
                   <ProjectCard
                     heading="Warehouse Projects"
-                    link="#"
+                    link="project-details"
                     image={require("assets/img/projects-temp/Warehouse.png")}
                   />
                 </Col>
@@ -104,7 +104,7 @@ function OurWork() {
                 <Col md="6">
                   <ProjectCard
                     heading="Shed Projects"
-                    link="#"
+                    link="project-details"
                     image={require("assets/img/projects-temp/Shed.png")}
                   />
                 </Col>
