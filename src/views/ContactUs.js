@@ -29,9 +29,9 @@ function ContactUs() {
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Get in touch</h2>
                 <h5 className="description font-weight-normal">
-                  Use the contact information below to contact us regarding any
-                  of our services. Our hard working team will get back to you as
-                  soon as possible.
+                  Use the information below to contact us regarding any of our
+                  services. Our hard working team will get back to you as soon
+                  as possible.
                 </h5>
               </Col>
             </Row>
