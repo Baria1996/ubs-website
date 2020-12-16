@@ -107,6 +107,10 @@
   display: block;
 }
 
+.zoom-50 {
+  zoom: 50% !important;
+}
+
 .navigation-example .img-src {
   background-attachment: scroll;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import ClientsSection from "components/ClientsSection.js";
 
 // reactstrap components
 import { Container, Row, Col, NavLink } from "reactstrap";
@@ -7,7 +8,7 @@ import { Container, Row, Col, NavLink } from "reactstrap";
 import PrimaryNavbar from "components/Navbars/PrimaryNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
-function OurWork() {
+function WhoWeAre() {
   React.useEffect(() => {
     document.body.classList.add("profile-page");
     document.body.classList.add("sidebar-collapse");
@@ -40,7 +41,7 @@ function OurWork() {
                 </p>
                 <img
                   className="img-raised rounded mb-4"
-                  src={require("assets/img/login.jpg")}
+                  src={require("assets/img/main-bg.jpg")}
                   alt="..."
                 />
                 <div id="intro" className="space-70"></div>
@@ -109,86 +110,11 @@ function OurWork() {
                   presence. While being renowned for its commitment, integrity,
                   quality and innovative solutions.
                 </p>
-                <div id="flow" className="space-50"></div>
-                <h4 className="text-primary text-left mb-4">Work Flow</h4>
-                <div className="container">
-                  <Row>
-                    <Col md="4" lg="4">
-                      <div className="text-center">
-                        <img
-                          className="img m-4"
-                          src={require("assets/img/icons/consultation.png")}
-                          alt="..."
-                        />
-                        <h6 className="font-weight-normal text-muted">
-                          Consultation
-                        </h6>
-                      </div>
-                    </Col>
-                    <Col md="4" lg="4">
-                      <div className="text-center">
-                        <img
-                          className="img m-4"
-                          src={require("assets/img/icons/design.png")}
-                          alt="..."
-                        />
-                        <h6 className="font-weight-normal text-muted">
-                          Designing
-                        </h6>
-                      </div>
-                    </Col>
-                    <Col md="4" lg="4">
-                      <div className="text-center">
-                        <img
-                          className="img m-4"
-                          src={require("assets/img/icons/collaboration.png")}
-                          alt="..."
-                        />
-                        <h6 className="font-weight-normal text-muted">
-                          Management
-                        </h6>
-                      </div>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col md="4" lg="4">
-                      <div className="text-center">
-                        <img
-                          className="img m-4"
-                          src={require("assets/img/icons/conveyor.png")}
-                          alt="..."
-                        />
-                        <h6 className="font-weight-normal text-muted">
-                          Manufacturing
-                        </h6>
-                      </div>
-                    </Col>
-                    <Col md="4" lg="4">
-                      <div className="text-center">
-                        <img
-                          className="img m-4"
-                          src={require("assets/img/icons/crane.png")}
-                          alt="..."
-                        />
-                        <h6 className="font-weight-normal text-muted">
-                          Construction
-                        </h6>
-                      </div>
-                    </Col>
-                    <Col md="4" lg="4">
-                      <div className="text-center">
-                        <img
-                          className="img m-4"
-                          src={require("assets/img/icons/support.png")}
-                          alt="..."
-                        />
-                        <h6 className="font-weight-normal text-muted">
-                          Support
-                        </h6>
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
+                <div id="clients" className="space-50"></div>
+                <h4 className="text-primary text-left mb-4">
+                  Our Esteemed Clients
+                </h4>
+                <ClientsSection />
               </Col>
               <Col md="3">
                 <div>
@@ -204,8 +130,8 @@ function OurWork() {
                     <i className="fas fa-angle-right"></i> Vision Statement
                   </NavLink>
                   <hr></hr>
-                  <NavLink href="#flow" className="m-0 p-0 text-muted">
-                    <i className="fas fa-angle-right"></i> Work Flow
+                  <NavLink href="#clients" className="m-0 p-0 text-muted">
+                    <i className="fas fa-angle-right"></i> Our Esteemed Clients
                   </NavLink>
                   <hr></hr>
                 </div>
@@ -219,4 +145,4 @@ function OurWork() {
   );
 }
 
-export default OurWork;
+export default WhoWeAre;
