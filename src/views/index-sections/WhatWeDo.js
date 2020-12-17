@@ -34,17 +34,14 @@ function WhatWeDo() {
           </Col>
           <Col md="6">
             <InfoCardSmall
-              redirect="what-we-do"
               heading="Ibad Shehryart (Pvt.) Ltd(I.S.L)"
               details="A Steel Structure Company"
             />
             <InfoCardSmall
-              redirect="what-we-do"
               heading="UBS Constructions & Engineering Division"
               details="A Civil Engineering Company"
             />
             <InfoCardSmall
-              redirect="what-we-do"
               heading="UBS General Order Supplies"
               details="Importing, trading, procurement, and supply of goods"
             />

@@ -26,7 +26,7 @@ function OurWork() {
       <div className="wrapper">
         <div className="section">
           <Container>
-            <h3 className="title">Our work</h3>
+            <h2 className="title">Our work</h2>
             <p className="text-muted font-weight-normal">
               UBS team is dedicated to delivering expertly Prefab building
               solutions and getting the job done fast and without fuss! It’s up

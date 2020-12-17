@@ -28,7 +28,7 @@ function WhoWeAre() {
           <Container>
             <Row>
               <Col md="12">
-                <h3 className="title text-left">Who we are</h3>
+                <h2 className="title text-left">Who we are</h2>
               </Col>
             </Row>
             <Row>
@@ -77,7 +77,7 @@ function WhoWeAre() {
                   structures.
                 </p>
                 <div id="mission" className="space-50"></div>
-                <h4 className="text-primary text-left">Mission Statement</h4>
+                <h3 className="text-primary text-left">Mission Statement</h3>
                 <p className="text-muted font-weight-normal">
                   <i className="fas fa-hand-point-right"></i> Become market
                   leaders in Civil Engineering industry with focus on:
@@ -104,16 +104,16 @@ function WhoWeAre() {
                   various industries in Pakistan.
                 </p>
                 <div id="vision" className="space-50"></div>
-                <h4 className="text-primary text-left">Vision Statement</h4>
+                <h3 className="text-primary text-left">Vision Statement</h3>
                 <p className="text-muted font-weight-normal">
                   To develop into a major national company with a regional
                   presence. While being renowned for its commitment, integrity,
                   quality and innovative solutions.
                 </p>
                 <div id="clients" className="space-50"></div>
-                <h4 className="text-primary text-left mb-4">
+                <h3 className="text-primary text-left mb-4">
                   Our Esteemed Clients
-                </h4>
+                </h3>
                 <ClientsSection />
               </Col>
               <Col md="3">
