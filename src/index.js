@@ -27,6 +27,7 @@ import "assets/demo/nucleo-icons-page-styles.css?v=1.4.0";
 // pages for this kit
 import Index from "views/Index.js";
 import WhoWeAre from "views/WhoWeAre.js";
+import WhatWeDo from "views/WhatWeDo.js";
 import OurWork from "views/OurWork.js";
 import ProjectDetails from "views/ProjectDetails.js";
 import ContactUs from "views/ContactUs.js";
@@ -37,6 +38,7 @@ ReactDOM.render(
       <Switch>
         <Route path="/index" render={(props) => <Index {...props} />} />
         <Route path="/who-we-are" render={(props) => <WhoWeAre {...props} />} />
+        <Route path="/what-we-do" render={(props) => <WhatWeDo {...props} />} />
         <Route path="/our-work" render={(props) => <OurWork {...props} />} />
         <Route
           path="/project-details"

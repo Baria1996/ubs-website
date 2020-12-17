@@ -111,6 +111,10 @@
   zoom: 50% !important;
 }
 
+.zoom-90 {
+  zoom: 90% !important;
+}
+
 .navigation-example .img-src {
   background-attachment: scroll;
 }
