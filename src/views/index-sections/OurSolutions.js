@@ -1,126 +1,57 @@
 import React from "react";
+import ProjectCard from "../../components/ProjectCard";
 
 // reactstrap components
-import {
-  Container,
-  Row,
-  Col,
-  Carousel,
-  CarouselItem,
-  CarouselIndicators,
-} from "reactstrap";
-
-// core components
-
-const items = [
-  {
-    src: require("assets/img/bg1.jpg"),
-    altText: "Prefab Container",
-    caption: "Prefab Container",
-  },
-  {
-    src: require("assets/img/bg8.jpg"),
-    altText: "Truss System",
-    caption: "Truss System",
-  },
-  {
-    src: require("assets/img/bg3.jpg"),
-    altText: "Roof Sandwich Panel",
-    caption: "Roof Sandwich Panel",
-  },
-  {
-    src: require("assets/img/bg4.jpg"),
-    altText: "Trapezoidal Corrugated Sheets",
-    caption: "Trapezoidal Corrugated Sheets",
-  },
-];
+import { Container, Row, Col, Button } from "reactstrap";
 
 function OurSolutions() {
-  const [activeIndex, setActiveIndex] = React.useState(0);
-  const [animating, setAnimating] = React.useState(false);
-  const onExiting = () => {
-    setAnimating(true);
-  };
-  const onExited = () => {
-    setAnimating(false);
-  };
-  const next = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
-  };
-  const previous = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-    setActiveIndex(nextIndex);
-  };
-  const goToIndex = (newIndex) => {
-    if (animating) return;
-    setActiveIndex(newIndex);
-  };
   return (
     <>
-      <div className="section" id="carousel">
-        <Container>
-          <div className="title">
-            <h2 className="title text-center">Our solutions</h2>
-          </div>
-          <Row className="justify-content-center">
-            <Col lg="8" md="12">
-              <Carousel
-                activeIndex={activeIndex}
-                next={next}
-                previous={previous}
-              >
-                <CarouselIndicators
-                  items={items}
-                  activeIndex={activeIndex}
-                  onClickHandler={goToIndex}
-                />
-                {items.map((item) => {
-                  return (
-                    <CarouselItem
-                      onExiting={onExiting}
-                      onExited={onExited}
-                      key={item.src}
-                    >
-                      <img src={item.src} alt={item.altText} />
-                      <div className="carousel-caption d-none d-md-block">
-                        <h5 className="font-weight-bold shadow-sm">
-                          {item.caption}
-                        </h5>
-                      </div>
-                    </CarouselItem>
-                  );
-                })}
-                <a
-                  className="carousel-control-prev"
-                  data-slide="prev"
-                  href="#pablo"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    previous();
-                  }}
-                  role="button"
-                >
-                  <i className="fas fa-chevron-left font-weight-bold shadow-lg"></i>
-                </a>
-                <a
-                  className="carousel-control-next"
-                  data-slide="next"
-                  href="#pablo"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    next();
-                  }}
-                  role="button"
-                >
-                  <i className="fas fa-chevron-right font-weight-bold shadow-lg"></i>
-                </a>
-              </Carousel>
-            </Col>
-          </Row>
-        </Container>
+      <div className="wrapper">
+        <div className="section section-team text-center">
+          <Container>
+            <h2 className="title">Our solutions</h2>
+            <div className="team">
+              <Row>
+                <Col md="4">
+                  <ProjectCard
+                    heading="Roof Sandwich Panel"
+                    description="Access to Schools with high-quality classrooms and safe
+                      learning environments is something every parent wants and
+                      every child needs."
+                    image={require("assets/img/projects/SANDWICH PANELS (13).jpeg")}
+                  />
+                </Col>
+                <Col md="4">
+                  <ProjectCard
+                    heading="Trapezoidal Corrugated Sheets"
+                    description="We invite you to explore our variety of cost efficient and
+                      quality designed structures, built for a lifetime to
+                      endure severe weather conditions."
+                    image={require("assets/img/projects/SANDWICH PANELS (3).jpeg")}
+                  />
+                </Col>
+                <Col md="4">
+                  <ProjectCard
+                    heading="Wall Sandwich Panel"
+                    description="We are leading Manufacturers of Prefabricated Houses,
+                      Villas, Farm Houses, Rooftop Rooms, Hostels, Cottages,
+                      Porta cabin, Liftable Rooms etc."
+                    image={require("assets/img/projects/SANDWICH PANELS (5).jpeg")}
+                  />
+                </Col>
+              </Row>
+              <Row>
+                <Col md="12">
+                  <div className="space-50"></div>
+                  <Button className="" color="info" href="our-solutions">
+                    View all products
+                  </Button>
+                </Col>
+              </Row>
+            </div>
+          </Container>
+        </div>
       </div>
     </>
   );

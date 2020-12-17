@@ -37,7 +37,14 @@ function IndexHeader() {
         ></div>
         <Container>
           <div className="content-center brand">
-            <h1 className="h1-seo">UBS Group of Companies</h1>
+            <img
+              className="mt-4 pt-4"
+              src={require("assets/img/logo.png")}
+              alt="..."
+            />
+            <h1 className="text-primary font-weight-bold mt-4">
+              <em>Group of Companies</em>
+            </h1>
             <h3>The Construction Revolution</h3>
           </div>
           <h6 className="category category-absolute">

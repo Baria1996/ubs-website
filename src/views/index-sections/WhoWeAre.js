@@ -27,28 +27,31 @@ function WhoWeAre() {
                   className="image-container image-left"
                   style={{
                     backgroundImage:
-                      "url(" + require("assets/img/login.jpg") + ")",
+                      "url(" +
+                      require("assets/img/projects/Residential_House_F7_5.jpg") +
+                      ")",
                   }}
                 >
                   <p className="blockquote font-weight-normal blockquote-primary">
                     United Business Systems was founded in 1987, by its CEO; Mr
                     khurram Shezad. Its sole aim at that time was to transform
                     paper-based offices into a smart office.
-                    <br></br>
                   </p>
                 </div>
-                <div className="space-100"></div>
+                <div className="space"></div>
               </Col>
               <Col md="6">
                 <div
                   className="image-container image-right"
                   style={{
                     backgroundImage:
-                      "url(" + require("assets/img/bg1.jpg") + ")",
+                      "url(" +
+                      require("assets/img/projects/Mahgul_Resort.jpg") +
+                      ")",
                   }}
                 ></div>
-                <h3>We began from humble beginnings</h3>
-                <p className="font-weight-normal">
+                <h3 className="text-muted">We began from humble beginnings</h3>
+                <p className="font-weight-normal text-muted">
                   however with time it has transformed into a
                   multi-million-dollar organization. Over time UBS took over and
                   dominated the office equipment and automation related services
