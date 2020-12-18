@@ -16,27 +16,27 @@ function OurSolutions() {
                 <Col md="4">
                   <ProjectCard
                     heading="Roof Sandwich Panel"
-                    description="Access to Schools with high-quality classrooms and safe
-                      learning environments is something every parent wants and
-                      every child needs."
+                    description="Color steel sandwich panel roof is a common 
+                    product in the current building materials, with light weight, 
+                    efficient and environmentally friendly features."
                     image={require("assets/img/projects/SANDWICH PANELS (13).jpeg")}
                   />
                 </Col>
                 <Col md="4">
                   <ProjectCard
-                    heading="Trapezoidal Corrugated Sheets"
-                    description="We invite you to explore our variety of cost efficient and
-                      quality designed structures, built for a lifetime to
-                      endure severe weather conditions."
+                    heading="EPS Sandwich panel"
+                    description="EPS Sandwich panel is composite two layers 
+                    pre-painted steel sheets and (EPS) polystyrene hard foams. 
+                    Used as roof, wall and cold room materials."
                     image={require("assets/img/projects/SANDWICH PANELS (3).jpeg")}
                   />
                 </Col>
                 <Col md="4">
                   <ProjectCard
                     heading="Wall Sandwich Panel"
-                    description="We are leading Manufacturers of Prefabricated Houses,
-                      Villas, Farm Houses, Rooftop Rooms, Hostels, Cottages,
-                      Porta cabin, Liftable Rooms etc."
+                    description="EPS Sandwich panel is kind of board used for 
+                    enclosing structures, which has good heat insulation and 
+                    higher intensity, and has Light Guage Weight"
                     image={require("assets/img/projects/SANDWICH PANELS (5).jpeg")}
                   />
                 </Col>
