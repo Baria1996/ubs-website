@@ -8,6 +8,49 @@ import { Container, Row, Col } from "reactstrap";
 import PrimaryNavbar from "components/Navbars/PrimaryNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
+const items = [
+  {
+    heading: "Container Projects",
+    image: require("assets/img/projects/container/Supply od ISolation Containers During COVID-19 (13).jpeg"),
+    category: "container",
+  },
+  {
+    heading: "Factory Projects",
+    image: require("assets/img/projects/factory/Factory-ISL (1).png"),
+    category: "factory",
+  },
+  {
+    heading: "House Projects",
+    image: require("assets/img/projects/house/Balakot Housing (2).png"),
+    category: "house",
+  },
+  {
+    heading: "Hut Projects",
+    image: require("assets/img/projects/hut/HUTS (6).jpeg"),
+    category: "hut",
+  },
+  {
+    heading: "Factories & Large-scale Projects",
+    image: require("assets/img/projects/largescale/Bhikki Power plant4.jpg"),
+    category: "largescale",
+  },
+  {
+    heading: "Office Projects",
+    image: require("assets/img/projects/office/China Embassy Islamabad (1).jpeg"),
+    category: "office",
+  },
+  {
+    heading: "School Projects",
+    image: require("assets/img/projects/school/Kotli High School (17).JPG"),
+    category: "school",
+  },
+  {
+    heading: "Shed Projects",
+    image: require("assets/img/projects/shed/Chitral Shed 4.JPG"),
+    category: "shed",
+  },
+];
+
 function OurWork() {
   React.useEffect(() => {
     document.body.classList.add("profile-page");
@@ -27,7 +70,7 @@ function OurWork() {
         <div className="section">
           <Container>
             <h2 className="title">Our work</h2>
-            <p className="text-muted font-weight-normal">
+            <p className="text-muted text-center font-weight-normal">
               UBS team is dedicated to delivering expertly Prefab building
               solutions and getting the job done fast and without fuss! It’s up
               to you to make the right choice of a construction method for your
@@ -37,77 +80,18 @@ function OurWork() {
             </p>
             <div className="section">
               <Row>
-                <Col md="6">
-                  <ProjectCard
-                    heading="House Projects"
-                    link="project-details"
-                    image={require("assets/img/projects-temp/House.png")}
-                  />
-                </Col>
-                <Col md="6">
-                  <ProjectCard
-                    heading="Office Projects"
-                    link="project-details"
-                    image={require("assets/img/projects-temp/Office.png")}
-                  />
-                </Col>
-              </Row>
-              <Row>
-                <Col md="6">
-                  <ProjectCard
-                    heading="Schoool Projects"
-                    link="project-details"
-                    image={require("assets/img/projects-temp/Schoool.png")}
-                  />
-                </Col>
-                <Col md="6">
-                  <ProjectCard
-                    heading="The Kartarpur Corridor"
-                    link="project-details"
-                    image={require("assets/img/projects-temp/Kartarpur.png")}
-                  />
-                </Col>
-              </Row>
-              <Row>
-                <Col md="6">
-                  <ProjectCard
-                    heading="Sukhi Kinari Hydropower Project"
-                    link="project-details"
-                    image={require("assets/img/projects-temp/Sukhi.png")}
-                  />
-                </Col>
-                <Col md="6">
-                  <ProjectCard
-                    heading="Andritz Hydropower Gulpur, Kotli AJK"
-                    link="project-details"
-                    image={require("assets/img/projects-temp/Andritz.png")}
-                  />
-                </Col>
-              </Row>
-              <Row>
-                <Col md="6">
-                  <ProjectCard
-                    heading="Filtration Plants at Lahore"
-                    link="project-details"
-                    image={require("assets/img/projects-temp/lahore.png")}
-                  />
-                </Col>
-                <Col md="6">
-                  <ProjectCard
-                    heading="Warehouse Projects"
-                    link="project-details"
-                    image={require("assets/img/projects-temp/Warehouse.png")}
-                  />
-                </Col>
-              </Row>
-              <Row>
-                <Col md="6">
-                  <ProjectCard
-                    heading="Shed Projects"
-                    link="project-details"
-                    image={require("assets/img/projects-temp/Shed.png")}
-                  />
-                </Col>
+                {items.map((item, index) => {
+                  return (
+                    <Col md="4" key={index}>
+                      <ProjectCard
+                        heading={item.heading}
+                        link={item.link}
+                        image={item.image}
+                        category={item.category}
+                      />
+                    </Col>
+                  );
+                })}
               </Row>
             </div>
           </Container>
