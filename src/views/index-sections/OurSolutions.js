@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectCard from "../../components/ProjectCard";
 
 // reactstrap components
 import { Container, Row, Col, Button } from "reactstrap";
@@ -14,31 +13,55 @@ function OurSolutions() {
             <div className="team">
               <Row>
                 <Col md="4">
-                  <ProjectCard
-                    heading="Roof Sandwich Panel"
-                    description="Color steel sandwich panel roof is a common 
-                    product in the current building materials, with light weight, 
-                    efficient and environmentally friendly features."
-                    image={require("assets/img/projects/SANDWICH PANELS (13).jpeg")}
-                  />
+                  <div className="team-player mb-4 pb-4">
+                    <img
+                      alt="..."
+                      className="img-fluid img-raised rounded"
+                      src={require("assets/img/products/SANDWICH PANELS (13).jpeg")}
+                    ></img>
+                    <h4 className="title text-black mt-0">
+                      Roof Sandwich Panel
+                    </h4>
+                    <p className="description font-weight-normal">
+                      Color steel sandwich panel roof is a common product in the
+                      current building materials, with light weight, efficient
+                      and environmentally friendly features.
+                    </p>
+                  </div>
                 </Col>
                 <Col md="4">
-                  <ProjectCard
-                    heading="EPS Sandwich panel"
-                    description="EPS Sandwich panel is composite two layers 
-                    pre-painted steel sheets and (EPS) polystyrene hard foams. 
-                    Used as roof, wall and cold room materials."
-                    image={require("assets/img/projects/SANDWICH PANELS (3).jpeg")}
-                  />
+                  <div className="team-player mb-4 pb-4">
+                    <img
+                      alt="..."
+                      className="img-fluid img-raised rounded"
+                      src={require("assets/img/products/SANDWICH PANELS (3).jpeg")}
+                    ></img>
+                    <h4 className="title text-black mt-0">
+                      EPS Sandwich panel
+                    </h4>
+                    <p className="description font-weight-normal">
+                      EPS Sandwich panel is composite two layers pre-painted
+                      steel sheets and (EPS) polystyrene hard foams. Used as
+                      roof, wall and cold room materials.
+                    </p>
+                  </div>
                 </Col>
                 <Col md="4">
-                  <ProjectCard
-                    heading="Wall Sandwich Panel"
-                    description="EPS Sandwich panel is kind of board used for 
-                    enclosing structures, which has good heat insulation and 
-                    higher intensity, and has Light Guage Weight"
-                    image={require("assets/img/projects/SANDWICH PANELS (5).jpeg")}
-                  />
+                  <div className="team-player mb-4 pb-4">
+                    <img
+                      alt="..."
+                      className="img-fluid img-raised rounded"
+                      src={require("assets/img/products/SANDWICH PANELS (5).jpeg")}
+                    ></img>
+                    <h4 className="title text-black mt-0">
+                      Wall Sandwich panel
+                    </h4>
+                    <p className="description font-weight-normal">
+                      EPS Sandwich panel is kind of board used for enclosing
+                      structures, which has good heat insulation and higher
+                      intensity, and has Light Guage Weight
+                    </p>
+                  </div>
                 </Col>
               </Row>
               <Row>

@@ -28,7 +28,7 @@ function WhoWeAre() {
                   style={{
                     backgroundImage:
                       "url(" +
-                      require("assets/img/projects/Residential_House_F7_5.jpg") +
+                      require("assets/img/projects/house/Residential_House_F7_5.jpg") +
                       ")",
                   }}
                 >
@@ -46,7 +46,7 @@ function WhoWeAre() {
                   style={{
                     backgroundImage:
                       "url(" +
-                      require("assets/img/projects/Mahgul_Resort.jpg") +
+                      require("assets/img/projects/house/Mahgul_Resort.jpg") +
                       ")",
                   }}
                 ></div>

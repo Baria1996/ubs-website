@@ -15,17 +15,17 @@ import {
 
 const items = [
   {
-    src: require("assets/img/projects/Kotli High School (17).JPG"),
+    src: require("assets/img/projects/school/Kotli High School (17).JPG"),
     altText: "...",
     caption: "",
   },
   {
-    src: require("assets/img/projects/Chitral Double Story (10).JPG"),
+    src: require("assets/img/projects/house/Chitral Double Story (10).JPG"),
     altText: "...",
     caption: "",
   },
   {
-    src: require("assets/img/projects/Chitral Double Sotry (5).JPG"),
+    src: require("assets/img/projects/house/Chitral Double Sotry (5).JPG"),
     altText: "...",
     caption: "",
   },
