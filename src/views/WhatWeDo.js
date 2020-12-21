@@ -58,7 +58,7 @@ function WhatWeDo() {
               <Col lg="6" md="12">
                 <img
                   className="img-raised rounded mt-4"
-                  src={require("assets/img/projects/Balakot Housing (2).png")}
+                  src={require("assets/img/projects/house/Balakot Housing (2).png")}
                   alt="..."
                 />
               </Col>

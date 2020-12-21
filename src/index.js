@@ -29,7 +29,7 @@ import Index from "views/Index.js";
 import WhoWeAre from "views/WhoWeAre.js";
 import WhatWeDo from "views/WhatWeDo.js";
 import OurWork from "views/OurWork.js";
-import ProjectDetails from "views/ProjectDetails.js";
+import OurSolutions from "views/OurSolutions.js";
 import ContactUs from "views/ContactUs.js";
 
 ReactDOM.render(
@@ -39,11 +39,11 @@ ReactDOM.render(
         <Route path="/index" render={(props) => <Index {...props} />} />
         <Route path="/who-we-are" render={(props) => <WhoWeAre {...props} />} />
         <Route path="/what-we-do" render={(props) => <WhatWeDo {...props} />} />
-        <Route path="/our-work" render={(props) => <OurWork {...props} />} />
         <Route
-          path="/project-details"
-          render={(props) => <ProjectDetails {...props} />}
+          path="/our-solutions"
+          render={(props) => <OurSolutions {...props} />}
         />
+        <Route path="/our-work" render={(props) => <OurWork {...props} />} />
         <Route
           path="/contact-us"
           render={(props) => <ContactUs {...props} />}
