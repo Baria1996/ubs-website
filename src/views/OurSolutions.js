@@ -14,7 +14,6 @@ const items = [
     description: [
       "EPS Sandwich panel is composite two layers pre-painted steel sheets and (EPS) polystyrene hard foams. Used as roof, wall and cold room materials. EPS foam sandwich panel also be called Foam or Polystyrene Sandwich panel widely use for Prefab Houses, Commercial Centers, Warehouses, Farm houses, Industrial partitioning, Multi Storey Buildings, Hospitals, Porta Cabins etc",
       <br></br>,
-      <br></br>,
       "Thickness : 50mm, 75mm, 100mm",
       <br></br>,
       "Width : 955 mm",
@@ -29,7 +28,6 @@ const items = [
     description: [
       "Color steel sandwich panel roof is a common product in the current building materials, not only can be very good flame retardant and environmentally friendly and efficient.  sandwich panels have two layers of metal panels and middle layer of polymer insulation core pressed. With easy installation, light weight, environmentally friendly and efficient features. Moreover, the closed-cell molecular structure used in the filling system can prevent condensation of water vapor.",
       <br></br>,
-      <br></br>,
       "Thickness : 50mm, 75mm, 100mm",
       <br></br>,
       "Width : 955 mm",
@@ -43,7 +41,6 @@ const items = [
     image: require("assets/img/products/SANDWICH PANELS (5).jpeg"),
     description: [
       "EPS Sandwich Wall Panel (Plain & Bearing line)",
-      <br></br>,
       <br></br>,
       "Thickness : 50mm, 75mm & 100mm",
       <br></br>,
@@ -74,7 +71,6 @@ const items = [
     image: require("assets/img/products/office.jpg"),
     description: [
       "Placing supervisors and management close to operations in a warehouse can increase productivity and help improve communication. PortaFab Modular Building Systems offer many options for inplant warehouse offices. Offices can be built on top of mezzanines to increase storage while improving visibility.",
-      <br></br>,
       <br></br>,
       "By choosing a modular building system over traditional construction, one minimizes the disruption to the warehouse during construction and offices can be re-purposed, moved or renovated in the future.",
     ],

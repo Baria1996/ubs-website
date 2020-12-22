@@ -10,7 +10,7 @@ function ProductCard(props) {
         <CardBody>
           <Row>
             <Col md="5">
-              <img alt="..." className=" img-fluid m-0" src={props.image}></img>
+              <img alt="..." className="img-fluid m-0" src={props.image}></img>
             </Col>
             <Col md="7">
               <p className="description font-weight-normal text-left">

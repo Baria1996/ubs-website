@@ -107,7 +107,7 @@ function ProjectCard(props) {
           <Row>
             {images.map((item, index) => {
               return (
-                <Col md="4" key={index}>
+                <Col lg="4" md="6" key={index}>
                   <img
                     className="img-fluid img-fit rounded mb-4"
                     src={item}

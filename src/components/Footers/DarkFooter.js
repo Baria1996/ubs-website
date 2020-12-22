@@ -10,7 +10,7 @@ function DarkFooter() {
     <footer className="footer" data-background-color="black">
       <ContactUs />
       <Container>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <a href="#" target="_blank">
@@ -28,8 +28,8 @@ function DarkFooter() {
               </a>
             </li>
           </ul>
-        </nav>
-        <div className="copyright text-right" id="copyright">
+        </nav> */}
+        <div className="text-center">
           © {new Date().getFullYear()}, UBS Group Of Companies
         </div>
       </Container>

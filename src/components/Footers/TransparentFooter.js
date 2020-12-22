@@ -8,7 +8,7 @@ function TransparentFooter() {
   return (
     <footer className="footer">
       <Container>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <a href="#" target="_blank">
@@ -26,8 +26,8 @@ function TransparentFooter() {
               </a>
             </li>
           </ul>
-        </nav>
-        <div className="copyright text-right" id="copyright">
+        </nav> */}
+        <div className="text-center">
           © {new Date().getFullYear()}, UBS Group Of Companies
         </div>
       </Container>
