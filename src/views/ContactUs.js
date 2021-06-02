@@ -43,14 +43,13 @@ function ContactUs() {
                     <p className="description text-left font-weight-normal">
                       <i className="pr-1 fas fa-phone-square"></i> +923004548461
                       <br></br>
-                      <i className="fas fa-fax"></i> 0092 51 2363409
+                      <i className="fas fa-fax"></i> 0092 51 2363411-13
                       <br></br>
                       <i className="pr-1 fas fa-envelope"></i>{" "}
-                      ibadsheryar@hotmail.com
+                      info@ubspakistan.pk
                       <br></br>
-                      <i className="pr-1 fas fa-map-marker-alt"></i> UBS Group
-                      of Companies Office No. 5,6,1 1,12, First Floor, Sardar
-                      Arcade, G-11 Markaz, Islamabad
+                      <i className="pr-1 fas fa-map-marker-alt"></i> Office No.
+                      13-J, Jinnah Super Market, F-7 Markaz, Islamabad-Pakistan
                     </p>
                     <Button
                       className="btn-icon btn-round"
@@ -63,7 +62,7 @@ function ContactUs() {
                     <Button
                       className="btn btn-round float-right"
                       color="info"
-                      href="mailto:ibadsheryar@hotmail.com"
+                      href="mailto:info@ubspakistan.pk"
                       target="_blank"
                     >
                       Send an Email
