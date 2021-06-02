@@ -10,44 +10,49 @@ import DarkFooter from "components/Footers/DarkFooter.js";
 
 const items = [
   {
-    heading: "Container Projects",
-    image: require("assets/img/projects/container/Supply od ISolation Containers During COVID-19 (13).jpeg"),
-    category: "container",
+    heading: "Containers/Porta-Cabins",
+    image: require("assets/img/projects/containers/containers.jpeg"),
+    category: "containers",
   },
   {
-    heading: "Factory Projects",
-    image: require("assets/img/projects/factory/Factory-ISL (1).png"),
-    category: "factory",
+    heading: "PEB/Steel Structures",
+    image: require("assets/img/projects/steel/Peshawar Shed (1i).JPG"),
+    category: "steel",
   },
   {
-    heading: "House Projects",
-    image: require("assets/img/projects/house/Balakot Housing (2).png"),
-    category: "house",
+    heading: "Housing Projects",
+    image: require("assets/img/projects/housing/Picture6.png"),
+    category: "housing",
   },
   {
-    heading: "Hut Projects",
-    image: require("assets/img/projects/hut/HUTS (6).jpeg"),
-    category: "hut",
+    heading: "Pre-Fab Huts",
+    image: require("assets/img/projects/huts/HUTS (6).jpeg"),
+    category: "huts",
   },
   {
-    heading: "Factories & Large-scale Projects",
-    image: require("assets/img/projects/largescale/Bhikki Power plant4.jpg"),
-    category: "largescale",
+    heading: "Mega Power Projects",
+    image: require("assets/img/projects/mega/Bhikki Power plant4.jpg"),
+    category: "mega",
   },
   {
-    heading: "Office Projects",
-    image: require("assets/img/projects/office/China Embassy Islamabad (1).jpeg"),
-    category: "office",
+    heading: "Pre-Fab Multi Storey Buildings",
+    image: require("assets/img/projects/multistorey/China Embassy Islamabad (1).jpeg"),
+    category: "multistorey",
   },
   {
-    heading: "School Projects",
-    image: require("assets/img/projects/school/Kotli High School (17).JPG"),
-    category: "school",
+    heading: "Educational Institutions",
+    image: require("assets/img/projects/educational/Kotli High School (17).JPG"),
+    category: "educational",
   },
   {
-    heading: "Shed Projects",
-    image: require("assets/img/projects/shed/Chitral Shed 4.JPG"),
-    category: "shed",
+    heading: "Civil Construction",
+    image: require("assets/img/projects/civil/Mahgul-resort-changla-gali.jpg"),
+    category: "civil",
+  },
+  {
+    heading: "Commercial Buildings",
+    image: require("assets/img/projects/commercial/Gulberg Green Booking Office.jpeg"),
+    category: "commercial",
   },
 ];
 

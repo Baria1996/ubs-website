@@ -9,66 +9,74 @@ function ProjectCard(props) {
   }
   // get images from the related folder
   let images = [];
-  if (props.category === "container") {
+  if (props.category === "containers") {
     images = importAll(
       require.context(
-        "../assets/img/projects/container",
+        "../assets/img/projects/containers",
         false,
         /\.(png|jpe?g|svg|JPG)$/
       )
     );
-  } else if (props.category === "factory") {
+  } else if (props.category === "steel") {
     images = importAll(
       require.context(
-        "../assets/img/projects/factory",
+        "../assets/img/projects/steel",
         false,
         /\.(png|jpe?g|svg|JPG)$/
       )
     );
-  } else if (props.category === "house") {
+  } else if (props.category === "housing") {
     images = importAll(
       require.context(
-        "../assets/img/projects/house",
+        "../assets/img/projects/housing",
         false,
         /\.(png|jpe?g|svg|JPG)$/
       )
     );
-  } else if (props.category === "hut") {
+  } else if (props.category === "huts") {
     images = importAll(
       require.context(
-        "../assets/img/projects/hut",
+        "../assets/img/projects/huts",
         false,
         /\.(png|jpe?g|svg|JPG)$/
       )
     );
-  } else if (props.category === "largescale") {
+  } else if (props.category === "mega") {
     images = importAll(
       require.context(
-        "../assets/img/projects/largescale",
+        "../assets/img/projects/mega",
         false,
         /\.(png|jpe?g|svg|JPG)$/
       )
     );
-  } else if (props.category === "office") {
+  } else if (props.category === "multistorey") {
     images = importAll(
       require.context(
-        "../assets/img/projects/office",
+        "../assets/img/projects/multistorey",
         false,
         /\.(png|jpe?g|svg|JPG)$/
       )
     );
-  } else if (props.category === "school") {
+  } else if (props.category === "educational") {
     images = importAll(
       require.context(
-        "../assets/img/projects/school",
+        "../assets/img/projects/educational",
         false,
         /\.(png|jpe?g|svg|JPG)$/
       )
     );
-  } else if (props.category === "shed") {
+  } else if (props.category === "civil") {
     images = importAll(
       require.context(
-        "../assets/img/projects/shed",
+        "../assets/img/projects/civil",
+        false,
+        /\.(png|jpe?g|svg|JPG)$/
+      )
+    );
+  } else if (props.category === "commercial") {
+    images = importAll(
+      require.context(
+        "../assets/img/projects/commercial",
         false,
         /\.(png|jpe?g|svg|JPG)$/
       )
@@ -86,7 +94,7 @@ function ProjectCard(props) {
       >
         <img
           alt="..."
-          className="img-fluid img-raised rounded"
+          className="img-fluid img-raised rounded img-fit-index"
           src={props.image}
         ></img>
         <h4 className="title text-black mt-0">{props.heading}</h4>

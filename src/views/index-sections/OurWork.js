@@ -15,7 +15,7 @@ import {
 
 const items = [
   {
-    src: require("assets/img/projects/school/Kotli High School (17).JPG"),
+    src: require("assets/img/projects/educational/Kotli High School (17).JPG"),
     altText: "...",
     caption: "",
   },
