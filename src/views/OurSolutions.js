@@ -95,13 +95,30 @@ function OurSolutions() {
       <div className="wrapper">
         <div className="section">
           <Container>
-            <h2 className="title">Our solutions</h2>
-            <p className="text-muted text-center font-weight-normal">
-              We invite you to explore our variety of cost efficient and quality
-              designed structures, built for a lifetime to endure severe weather
-              conditions. Select a standard building type or customize your
-              structure dependent upon your requirements and visionary style!
-            </p>
+            <Row>
+              <Col md="12">
+                <div className="space-50"></div>
+              </Col>
+            </Row>
+            <Row>
+              <Col lg="6" md="12">
+                <h2 className="title text-left mt-0 pt-0">Our solutions</h2>
+                <p className="text-muted font-weight-normal">
+                  We invite you to explore our variety of cost efficient and
+                  quality designed structures, built for a lifetime to endure
+                  severe weather conditions. Select a standard building type or
+                  customize your structure dependent upon your requirements and
+                  visionary style!
+                </p>
+              </Col>
+              <Col lg="6" md="12">
+                <img
+                  className="img-raised rounded"
+                  src={require("assets/img/solutions.png")}
+                  alt="..."
+                />
+              </Col>
+            </Row>
             <div className="section">
               <Row>
                 {items.map((item, index) => {

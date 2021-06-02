@@ -41,13 +41,8 @@ function WhatWeDo() {
                   Merchandising,Real Estate, Business Consultancy, and Overseas
                   Investment. Our services include:
                   <br></br>
-                  <i className="fas fa-hand-point-right"></i> Mass Housing
-                  <br></br>
                   <i className="fas fa-hand-point-right"></i> Infrastructure
                   Development
-                  <br></br>
-                  <i className="fas fa-hand-point-right"></i> High Rise
-                  Buildings
                   <br></br>
                   <i className="fas fa-hand-point-right"></i> Civil Construction
                   <br></br>
@@ -62,6 +57,58 @@ function WhatWeDo() {
                   alt="..."
                 />
               </Col>
+            </Row>
+            <Row>
+              <Col md="12">
+                <h3 className="text-primary text-center title">
+                  Our expertise in above fields include
+                </h3>
+              </Col>
+            </Row>
+            <Row>
+              <Col md="1"></Col>
+              <Col md="5">
+                <p className="text-muted font-weight-normal">
+                  <br></br>- Mass Housing
+                  <br></br>- Infrastructure Development
+                  <br></br>- Marquees
+                  <br></br>- Hotels & Resorts
+                  <br></br>- Medical Facilities
+                  <br></br>- Educational Institutions
+                  <br></br>- Industrial Shed
+                  <br></br>- Industrial Plants
+                  <br></br>- Auditorium
+                  <br></br>- Poultry Farms
+                  <br></br>- Dairy Farms
+                  <br></br>- Shopping complex
+                  <br></br>- Aircraft Hangars
+                  <br></br>- Cold Storages
+                  <br></br>- Airport Terminal Building
+                  <br></br>- Railway Stations
+                  <br></br>- Slaughter House
+                  <br></br>- Meat Processing Units
+                </p>
+              </Col>
+              <Col md="5">
+                <p className="text-muted font-weight-normal">
+                  <br></br>- Residences
+                  <br></br>- Restaurants
+                  <br></br>- Basic Health units
+                  <br></br>- R.O. Filtration Plants
+                  <br></br>- Public Toilets,'Washrooms
+                  <br></br>- Villas/Cottages
+                  <br></br>- Houses
+                  <br></br>- Mosques
+                  <br></br>- Schools/Universities
+                  <br></br>- Clean Rooms
+                  <br></br>- Site Carnps
+                  <br></br>- Marketing Offices
+                  <br></br>- Military Camps/Barracks
+                  <br></br>- Labor Dormitories
+                  <br></br>- Ticket Booth
+                </p>
+              </Col>
+              <Col md="1"></Col>
             </Row>
           </Container>
         </div>
