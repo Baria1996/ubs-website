@@ -33,7 +33,7 @@ function WhatWeDo() {
             </Row>
             <Row>
               <Col lg="6" md="12">
-                <h2 className="title text-left mt-0 pt-0">What we do</h2>
+                <h2 className="title text-left mt-0 pt-0">What we do in UBS</h2>
                 <p className="text-muted font-weight-normal">
                   With progression of time UBS business group diversified into
                   the many other sectors primarily; Compressed Natural Gas
@@ -41,8 +41,8 @@ function WhatWeDo() {
                   Merchandising,Real Estate, Business Consultancy, and Overseas
                   Investment. Our services include:
                   <br></br>
-                  <i className="fas fa-hand-point-right"></i> Infrastructure
-                  Development
+                  <i className="fas fa-hand-point-right"></i> High Rise
+                  Buildings
                   <br></br>
                   <i className="fas fa-hand-point-right"></i> Civil Construction
                   <br></br>
@@ -60,7 +60,8 @@ function WhatWeDo() {
             </Row>
             <Row>
               <Col md="12">
-                <h3 className="text-primary text-center title">
+                <div className="space-50"></div>
+                <h3 className="text-primary text-center">
                   Our expertise in above fields include
                 </h3>
               </Col>
@@ -109,6 +110,41 @@ function WhatWeDo() {
                 </p>
               </Col>
               <Col md="1"></Col>
+            </Row>
+            <Row>
+              <Col md="12">
+                <div className="space-50"></div>
+                <h2 className="title text-left mt-0 pt-0">
+                  What we do in Islamabad
+                </h2>
+              </Col>
+            </Row>
+            <Row>
+              <Col md="12">
+                <p className="text-muted font-weight-normal">
+                  <i className="fas fa-hand-point-right"></i> Sandwich Panels
+                  (EPS/PU/Rockwool/Glass wool). <br></br>
+                  <i className="fas fa-hand-point-right"></i> Heavy Gauge Steel
+                  Structures. <br></br>
+                  <i className="fas fa-hand-point-right"></i> Light Gauge Steel
+                  Structures. <br></br>
+                  <i className="fas fa-hand-point-right"></i> Metallic
+                  Fabrication (Cutting/Flashing, welding , bending, Shearing &
+                  corrugation. <br></br>
+                  <i className="fas fa-hand-point-right"></i> Hot Roll & Cold
+                  Roll manufacturing <br></br>
+                  <i className="fas fa-hand-point-right"></i> Pre-fabricated &
+                  Pre-Engineered Building accessories. <br></br>
+                  <i className="fas fa-hand-point-right"></i> Portable
+                  Buildings. <br></br>
+                  <i className="fas fa-hand-point-right"></i> Erection ,
+                  Installation of PEB & Pre-Fab building. <br></br>
+                  <i className="fas fa-hand-point-right"></i> Complete Green
+                  House Solutions. <br></br>
+                  <i className="fas fa-hand-point-right"></i> Porta Cabins &
+                  Lift-able Containers. <br></br>
+                </p>
+              </Col>
             </Row>
           </Container>
         </div>
