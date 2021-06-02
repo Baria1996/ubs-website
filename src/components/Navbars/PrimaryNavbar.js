@@ -57,6 +57,11 @@ function IndexNavbar() {
           >
             <Nav navbar>
               <NavItem>
+                <NavLink href="our-esteemed-clients">
+                  <p>Our Esteemed Clients</p>
+                </NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="who-we-are">
                   <p>Who We Are</p>
                 </NavLink>

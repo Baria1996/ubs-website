@@ -1,5 +1,4 @@
 import React from "react";
-import ClientsSection from "components/ClientsSection.js";
 
 // reactstrap components
 import { Container, Row, Col, NavLink } from "reactstrap";
@@ -77,7 +76,9 @@ function WhoWeAre() {
                   structures.
                 </p>
                 <div id="mission" className="space-50"></div>
-                <h3 className="text-primary text-left">Mission Statement</h3>
+                <h3 className="text-primary text-left pt-2">
+                  Mission Statement
+                </h3>
                 <p className="text-muted font-weight-normal">
                   <i className="fas fa-hand-point-right"></i> Become market
                   leaders in Civil Engineering industry with focus on:
@@ -104,17 +105,14 @@ function WhoWeAre() {
                   various industries in Pakistan.
                 </p>
                 <div id="vision" className="space-50"></div>
-                <h3 className="text-primary text-left">Vision Statement</h3>
+                <h3 className="text-primary text-left pt-2">
+                  Vision Statement
+                </h3>
                 <p className="text-muted font-weight-normal">
                   To develop into a major national company with a regional
                   presence. While being renowned for its commitment, integrity,
                   quality and innovative solutions.
                 </p>
-                <div id="clients" className="space-50"></div>
-                <h3 className="text-primary text-left mb-4">
-                  Our Esteemed Clients
-                </h3>
-                <ClientsSection />
               </Col>
               <Col md="3">
                 <div>
@@ -128,10 +126,6 @@ function WhoWeAre() {
                   <hr></hr>
                   <NavLink href="#vision" className="m-0 p-0 text-muted">
                     <i className="fas fa-angle-right"></i> Vision Statement
-                  </NavLink>
-                  <hr></hr>
-                  <NavLink href="#clients" className="m-0 p-0 text-muted">
-                    <i className="fas fa-angle-right"></i> Our Esteemed Clients
                   </NavLink>
                   <hr></hr>
                 </div>
