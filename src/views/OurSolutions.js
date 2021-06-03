@@ -113,27 +113,30 @@ function OurSolutions() {
               </Col>
               <Col lg="6" md="12">
                 <img
-                  className="img-raised rounded"
-                  src={require("assets/img/solutions.png")}
+                  className="img-raised rounded mb-5"
+                  src={require("assets/img/Our-Solutions-1.jpg")}
                   alt="..."
                 />
               </Col>
             </Row>
-            <div className="section">
-              <Row>
-                {items.map((item, index) => {
-                  return (
-                    <Col md="12" key={index}>
-                      <ProductCard
-                        heading={item.heading}
-                        image={item.image}
-                        description={item.description}
-                      />
-                    </Col>
-                  );
-                })}
-              </Row>
-            </div>
+            <Row>
+              <Col md="12">
+                <h3 className="text-primary text-center">Sandwich Panels</h3>
+              </Col>
+            </Row>
+            <Row>
+              {items.map((item, index) => {
+                return (
+                  <Col md="12" key={index}>
+                    <ProductCard
+                      heading={item.heading}
+                      image={item.image}
+                      description={item.description}
+                    />
+                  </Col>
+                );
+              })}
+            </Row>
           </Container>
         </div>
         <DarkFooter />

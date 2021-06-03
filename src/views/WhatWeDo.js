@@ -151,16 +151,16 @@ function WhatWeDo() {
         <Tabs />
         <div className="section">
           <Container>
-            <Row>
+            {/* <Row>
               <Col md="12">
-                {/* <h3 className="title text-primary font-weight-normal mt-0 pt-0">
+                <h3 className="title text-primary font-weight-normal mt-0 pt-0">
                   Work Flow
-                </h3> */}
+                </h3>
               </Col>
-            </Row>
+            </Row> */}
             <Row>
-              <Col md="2" lg="2">
-                <div className="text-center">
+              <Col md="12" className="d-flex flex-wrap justify-content-around">
+                <div className="text-center m-3 px-3">
                   <img
                     className="img m-4"
                     src={require("assets/img/icons/consultation.png")}
@@ -170,9 +170,7 @@ function WhatWeDo() {
                     Consultation
                   </h6>
                 </div>
-              </Col>
-              <Col md="2" lg="2">
-                <div className="text-center">
+                <div className="text-center m-3 px-3">
                   <img
                     className="img m-4"
                     src={require("assets/img/icons/design.png")}
@@ -180,9 +178,7 @@ function WhatWeDo() {
                   />
                   <h6 className="font-weight-normal text-muted">Designing</h6>
                 </div>
-              </Col>
-              <Col md="2" lg="2">
-                <div className="text-center">
+                <div className="text-center m-3 px-3">
                   <img
                     className="img m-4"
                     src={require("assets/img/icons/collaboration.png")}
@@ -190,9 +186,7 @@ function WhatWeDo() {
                   />
                   <h6 className="font-weight-normal text-muted">Management</h6>
                 </div>
-              </Col>
-              <Col md="2" lg="2">
-                <div className="text-center">
+                <div className="text-center m-3 px-3">
                   <img
                     className="img m-4"
                     src={require("assets/img/icons/conveyor.png")}
@@ -202,9 +196,7 @@ function WhatWeDo() {
                     Manufacturing
                   </h6>
                 </div>
-              </Col>
-              <Col md="2" lg="2">
-                <div className="text-center">
+                <div className="text-center m-3 px-3">
                   <img
                     className="img m-4"
                     src={require("assets/img/icons/crane.png")}
@@ -214,9 +206,7 @@ function WhatWeDo() {
                     Construction
                   </h6>
                 </div>
-              </Col>
-              <Col md="2" lg="2">
-                <div className="text-center">
+                <div className="text-center m-3 px-3">
                   <img
                     className="img m-4"
                     src={require("assets/img/icons/support.png")}
