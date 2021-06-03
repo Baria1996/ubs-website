@@ -134,6 +134,31 @@
   height: 2.8rem;
 }
 
+.page-header::after {
+  background-image: linear-gradient(#000000dd, #ffffff00);
+}
+
+.page-title {
+  width: 100vw;
+  position: absolute;
+  z-index: 1000;
+  top: 10rem;
+}
+
+.page-title-inner {
+  text-align: center;
+  text-shadow: 0.1px 0.1px 1px #fff;
+}
+
+.carousel-inner {
+  box-shadow: none !important;
+}
+
+.carousel-inner img {
+  height: 125vh;
+  min-height: 550px;
+}
+
 .img-fit {
   width: 30rem;
   height: 10rem;
