@@ -13,7 +13,7 @@ import {
 } from "reactstrap";
 
 function IndexNavbar() {
-  const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
+  const [navbarColor, setNavbarColor] = React.useState("navbar-white");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
   React.useEffect(() => {
     const updateNavbarColor = () => {
@@ -26,7 +26,7 @@ function IndexNavbar() {
         document.documentElement.scrollTop < 400 ||
         document.body.scrollTop < 400
       ) {
-        setNavbarColor("navbar-transparent");
+        setNavbarColor("navbar-white");
       }
     };
     window.addEventListener("scroll", updateNavbarColor);
@@ -45,15 +45,15 @@ function IndexNavbar() {
           }}
         />
       ) : null}
-      <Navbar
-        className={"fixed-top " + navbarColor}
-        expand="lg"
-        color="primary"
-      >
+      <Navbar className={"fixed-top " + navbarColor} expand="lg" color="white">
         <Container>
           <div className="navbar-translate">
             <NavbarBrand href="index" id="navbar-brand">
-              UBS Group Of Companies
+              <img
+                className="navbar-logo"
+                src={require("assets/img/main-logo-sm.jpg")}
+                alt="..."
+              />
             </NavbarBrand>
             <button
               className="navbar-toggler navbar-toggler"
@@ -101,12 +101,8 @@ function IndexNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <Button
-                  className="nav-link btn-neutral"
-                  color="primary"
-                  href="contact-us"
-                >
-                  <p>Contact Us</p>
+                <Button className="nav-link btn-primary" href="contact-us">
+                  Contact Us
                 </Button>
               </NavItem>
               <NavItem>
@@ -114,8 +110,12 @@ function IndexNavbar() {
                   href="https://www.facebook.com/UBSBusinessGroup"
                   target="_blank"
                   id="facebook-tooltip"
+                  className="btn-facebook"
                 >
-                  <i className="fab fa-facebook"></i>
+                  <i
+                    className="fab fa-facebook btn-facebook"
+                    style={{ opacity: "1" }}
+                  ></i>
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target="#facebook-tooltip">

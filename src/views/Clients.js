@@ -5,7 +5,7 @@ import ClientsSection from "components/ClientsSection.js";
 import { Container, Row, Col } from "reactstrap";
 
 // core components
-import PrimaryNavbar from "components/Navbars/PrimaryNavbar.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 function Clients() {
@@ -22,7 +22,7 @@ function Clients() {
   }, []);
   return (
     <>
-      <PrimaryNavbar />
+      <IndexNavbar />
       <div className="wrapper">
         <div className="section">
           <Container>

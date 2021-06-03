@@ -5,7 +5,7 @@ import ProjectCard from "../components/ProjectCard";
 import { Container, Row, Col } from "reactstrap";
 
 // core components
-import PrimaryNavbar from "components/Navbars/PrimaryNavbar.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 const items = [
@@ -70,7 +70,7 @@ function OurWork() {
   }, []);
   return (
     <>
-      <PrimaryNavbar />
+      <IndexNavbar />
       <div className="wrapper">
         <div className="section">
           <Container>

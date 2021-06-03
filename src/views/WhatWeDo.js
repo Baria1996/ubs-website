@@ -4,7 +4,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 // core components
-import PrimaryNavbar from "components/Navbars/PrimaryNavbar.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 import Tabs from "components/Tabs.js";
 
@@ -22,7 +22,7 @@ function WhatWeDo() {
   }, []);
   return (
     <>
-      <PrimaryNavbar />
+      <IndexNavbar />
       <div className="wrapper">
         <div className="section">
           <Container>

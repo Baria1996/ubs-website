@@ -4,7 +4,7 @@ import React from "react";
 import { Button, Container, Row, Col, Card, CardBody } from "reactstrap";
 
 // core components
-import PrimaryNavbar from "components/Navbars/PrimaryNavbar.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import TransparentFooter from "components/Footers/TransparentFooter.js";
 
 function ContactUs() {
@@ -21,7 +21,7 @@ function ContactUs() {
   }, []);
   return (
     <>
-      <PrimaryNavbar />
+      <IndexNavbar />
       <div className="wrapper">
         <div className="section section-about-us">
           <Container>

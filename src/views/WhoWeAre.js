@@ -4,7 +4,7 @@ import React from "react";
 import { Container, Row, Col, NavLink } from "reactstrap";
 
 // core components
-import PrimaryNavbar from "components/Navbars/PrimaryNavbar.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 function WhoWeAre() {
@@ -21,7 +21,7 @@ function WhoWeAre() {
   }, []);
   return (
     <>
-      <PrimaryNavbar />
+      <IndexNavbar />
       <div className="wrapper">
         <div className="section">
           <Container>
